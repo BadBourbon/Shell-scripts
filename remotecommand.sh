@@ -1,4 +1,5 @@
 #!/bin/bash
+#Script for remote command execution on servers  
 echo enter command
 read command
 echo enter server adress
