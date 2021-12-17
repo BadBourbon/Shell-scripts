@@ -1,5 +1,5 @@
 #!/bin/bash
-#Script for getting a list of domain A records and checking the availability of servers
+#Script for getting a list of domain records A and checking the availability of servers
 Script for getting a list of A records and checking the availability of servers
 echo enter domain name
 read i
