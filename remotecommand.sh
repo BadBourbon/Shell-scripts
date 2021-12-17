@@ -1,9 +1,7 @@
 #!/bin/bash
 #Script for remote command execution on servers  
-echo enter command
-read command
-echo enter server adress
-read server
+command=$1
+server=${@:2}
 for h in $server; do
   if ssh $USER@$h $command; then
     echo "$h true"
