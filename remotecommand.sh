@@ -5,7 +5,7 @@ read command
 echo enter server adress
 read server
 for h in $server; do
-  if ssh production@$h $command; then
+  if ssh $USER@$h $command; then
     echo "$h true"
   else
     echo "$h false"
